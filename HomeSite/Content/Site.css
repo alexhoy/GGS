@@ -1,0 +1,102 @@
+﻿@font-face {
+    font-family: "Tarkov";
+    src: url('Tarkov.ttf');
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+    background-color: #353531;
+    color: #FFFFFF;
+    font-family:Tarkov;
+    background-image: url('bg.png');
+    background-repeat: repeat;
+    background-attachment: fixed;
+}
+
+
+/* Set padding to keep content from hitting the edges */
+.body-content {
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+/* Override the default bootstrap behavior where horizontal description lists 
+   will truncate terms that are too long to fit in the left column 
+*/
+.dl-horizontal dt {
+    white-space: normal;
+}
+
+/* Set width on the form input elements since they're 100% wide by default */
+input,
+select,
+textarea {
+    max-width: 280px;
+}
+
+html {
+    background-color: #353531;
+    font-family: Tarkov;
+
+}
+.jumbotron {
+    background-color: #93A8AC;
+}
+
+    .jumbotron h1 {
+        color: #29339B;
+        text-decoration: underline;
+    }
+
+.navbar {
+    text-align:center;
+    padding-left:5%;
+    font-size:25px;
+    color:#FFFFFF;
+    border-bottom:solid;
+}
+
+    .navbar a {
+        color: #FFFFFF;
+        transition:4s;
+        transition-timing-function:ease;
+    }
+
+        .navbar a:hover {
+            color: #FF3A20;
+            display: block;
+            text-decoration: none;
+            background-color: #29339B;
+            color:#FF3a20;
+            width: 100%;
+        }
+
+
+.btn{
+    background-color:#29339B;
+}
+
+    .btn:hover{
+    color:#FF3A20;
+    }
+
+
+
+::selection {
+    background-color:#FF3a20;
+    color:#29339B;
+}
+
+.MainTitle {
+
+    text-align:center;
+
+}
+
+.AboutTitle {
+
+    text-space-collapse:collapse;
+    margin:50px;
+}
+
